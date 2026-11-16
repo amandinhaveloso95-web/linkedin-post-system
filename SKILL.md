@@ -24,7 +24,8 @@ Copy `templates/` into the working folder and fill it by interviewing the person
 2. `FACTS.md`: one role at a time. First open questions, then a numbered checklist of typical activities for that role that the person answers by number, with notes. Keep a "not confirmed" list.
 3. `VOICE.md`: phrases the person actually says, and later every edit they make to a draft.
 4. `TARGETS.md`: creators, recruiters and hiring managers worth commenting on.
-`ROTATION.md`, `METRICS.md` and `ERRORS.md` start empty.
+5. `STORIES.md`: turn the confirmed facts into a story bank. Each row has the situation, the turning point and a number, plus the date it was used. A story comes back only after six weeks, in another language or format.
+`ROTATION.md`, `METRICS.md`, `HOOKS.md` and `ERRORS.md` start empty.
 
 ## 2. Every run
 1. Pull the folder if it is a Git repository. Read every state file. If a `PAUSE.txt` file exists, stop and say so.
@@ -32,11 +33,13 @@ Copy `templates/` into the working folder and fill it by interviewing the person
 3. Measure: impressions, reactions and comments of the last three weeks into `METRICS.md`. After six measured posts, give the best format and topic one extra slot in every four runs. Never drop a format because of one weak post.
 4. Pick by rotation, never repeating the previous post: language, format (image, GIF, PDF carousel, video), type (tech news, personal experience, industry conversation), experience used, and text structure (numbered list, short story, opinion, behind the scenes, a mistake, an open question).
 5. Research. News: last 7 days, confirmed on a primary source or a recognized outlet; open the source and check date, numbers and names. References: recent posts from `TARGETS.md`; copy structure, never text or numbers.
-6. Write. Three candidate first lines, keep the best. Concrete example, real numbers, a question at the end, at most three hashtags. Source links go in the first comment, not in the body. Think of a recruiter reading for six seconds: scale, what the person built, what decision it supported.
-7. Review in three passes: recruiter skim, `HUMANIZER.md` plus `VOICE.md`, then fact check sentence by sentence. Score 0 to 2 on hook, concrete proof, voice, value to someone hiring, facts checked. Below 8 of 10, rewrite.
+   Hooks: when a reference post is doing far better than that author's usual, extract the shape of its first line (the structure, never the words) into `HOOKS.md`.
+   Every fourth run, repurpose: take the best post in `METRICS.md` older than three weeks and redo it in the other language and another format, with a new hook. Say so in the summary.
+6. Write. Pick an unused story from `STORIES.md`. Three candidate first lines, keep the best. Concrete example, real numbers, a question at the end, at most three hashtags. Source links go in the first comment, not in the body. Think of a recruiter reading for six seconds: scale, what the person built, what decision it supported.
+7. Review in three passes: recruiter skim, `HUMANIZER.md` plus `VOICE.md` (and an installed humanizer skill if there is one), then fact check sentence by sentence. Audit before scoring, and any "no" sends the draft back: do the first two lines work alone? Is the post around 900 to 1,300 characters, or is there a reason not to be? No link in the body? At most three hashtags? Does every number have a source or a confirmed fact? Is there at least one number where an adjective would have been? Is the hook shape different from the previous post? Score 0 to 2 on hook, concrete proof, voice, value to someone hiring, facts checked. Below 8 of 10, rewrite.
 8. Design. Look for installed design, video and audio skills before building anything by hand, and pick the best ones for the format. The identity in `PROFILE.md` always wins over a skill's defaults. Add alt text to images and burned-in captions to video. Check the render at phone size.
-9. Replies. Read each new comment in full and who wrote it. Recruiter or hiring manager: add one detail of the person's work and alert the person. Peer: answer the technical point and ask something back. Friend: short and warm. Never open with "thanks for the comment". If the answer needs a fact you do not have, ask the person.
-10. Comments on others. Only when there is something to add: a checked fact, an example, a question the post left open, a polite disagreement. Two to four sentences in the post's language. Order: their post first, then the question or suggestion, then at most one subtle line about the person's experience, in no more than half of the comments. Skip politics, grief, sales and job posts.
+9. Replies. Read each new comment in full and who wrote it. Recruiter or hiring manager: add one detail of the person's work and alert the person. Peer: answer the technical point and ask something back. Friend: short and warm. Never open with "thanks for the comment". If the answer needs a fact you do not have, ask the person. When the author of a post replies to the person's comment, continuing that thread comes before any new comment, ideally 6 to 24 hours later. LinkedIn threads have two levels: a reply to a reply lands in the same thread and tags the person, so check the tag. Look at who reacted and commented, and alert the person when a recruiter, a hiring manager or someone from `TARGETS.md` shows up.
+10. Comments on others. Only when there is something to add: a checked fact, an example, a question the post left open, a polite disagreement. About 200 to 350 characters in the post's language, one idea: one sharp point beats three vague ones. Order: their post first, then the question or suggestion, then at most one subtle line about the person's experience, in no more than half of the comments. Skip politics, grief, sales and job posts.
 11. Show one summary: post, asset, replies, comments, sources, score and every sentence that needs the person's confirmation. Ask "Publish?".
 12. After "publish": post, verify it is live, log the run in `ROTATION.md`, log anything that broke in `ERRORS.md`, commit and push.
 
@@ -46,4 +49,7 @@ Copy `templates/` into the working folder and fill it by interviewing the person
 - After every publish, reload and confirm the text is where it should be.
 
 ## 4. Weekly
-On the last run of the week, write a short summary: what went out, numbers, who commented, recruiters who showed up, what to change next week.
+On the last run of the week, write a short summary: what went out, numbers, who commented, recruiters who showed up, what to change next week. End with next week's plan: for each run, the language, format, story, hook shape and two or three profiles to comment on. The person can veto or swap anything before the week starts.
+
+## 5. Length figures
+The character ranges above are common market guidance, not measured truth. Once `METRICS.md` has enough of the person's own posts, their best performers decide.
