@@ -1,4 +1,4 @@
----
+﻿---
 name: linkedin-post-system
 description: Run a recurring LinkedIn routine for one person - research, write and design a post, draft replies to comments and comments on other people's posts, then publish only after the person approves. Use when the person asks to set up, run or improve their LinkedIn posting routine.
 ---
@@ -14,7 +14,7 @@ Nothing in this skill is about a specific person. All personal material lives in
 - Use only facts the person confirmed. A CV is a summary: when a text needs a task that fits the role but is not confirmed, ask a short closed question and wait. Never invent scenes, quotes, motives or numbers.
 - Record what the person did NOT do as carefully as what they did (who decided, who talked to clients, who owned the budget).
 - Employer data: only numbers the person already made public or explicitly cleared.
-- Never change account settings, send connection requests or direct messages, or type a password.
+- Never change account settings, send direct messages, or type a password. Connection requests only from a weekly list of 5 to 10 people that the person approves name by name, never more than 10 a week.
 - Stop everything if the site asks for login or verification, or shows an unusual-activity warning.
 - Limits per run: 1 post, up to 5 comments on other people's posts, up to 10 replies.
 
@@ -39,7 +39,7 @@ Copy `templates/` into the working folder and fill it by interviewing the person
 7. Review in three passes: recruiter skim, `HUMANIZER.md` plus `VOICE.md` (and an installed humanizer skill if there is one), then fact check sentence by sentence. Audit before scoring, and any "no" sends the draft back: do the first two lines work alone? Is the post around 900 to 1,300 characters, or is there a reason not to be? No link in the body? At most three hashtags? Does every number have a source or a confirmed fact? Is there at least one number where an adjective would have been? Is the hook shape different from the previous post? Score 0 to 2 on hook, concrete proof, voice, value to someone hiring, facts checked. Below 8 of 10, rewrite.
 8. Design. Look for installed design, video and audio skills before building anything by hand, and pick the best ones for the format. The identity in `PROFILE.md` always wins over a skill's defaults. Add alt text to images and burned-in captions to video. Check the render at phone size.
 9. Replies. Read each new comment in full and who wrote it. Recruiter or hiring manager: add one detail of the person's work and alert the person. Peer: answer the technical point and ask something back. Friend: short and warm. Never open with "thanks for the comment". If the answer needs a fact you do not have, ask the person. When the author of a post replies to the person's comment, continuing that thread comes before any new comment, ideally 6 to 24 hours later. LinkedIn threads have two levels: a reply to a reply lands in the same thread and tags the person, so check the tag. Look at who reacted and commented, and alert the person when a recruiter, a hiring manager or someone from `TARGETS.md` shows up.
-10. Comments on others. Only when there is something to add: a checked fact, an example, a question the post left open, a polite disagreement. About 200 to 350 characters in the post's language, one idea: one sharp point beats three vague ones. Order: their post first, then the question or suggestion, then at most one subtle line about the person's experience, in no more than half of the comments. Skip politics, grief, sales and job posts.
+10. Comments on others. Only when there is something to add: a checked fact, an example, a question the post left open, a polite disagreement. About 200 to 350 characters in the post's language, one idea: one sharp point beats three vague ones. Order: their post first, then the question or suggestion, then at most one subtle line about the person's experience, in no more than half of the comments. Skip politics, grief, sales and job posts. Prefer mid-size authors (roughly 2,000 to 20,000 followers) who answer their comments; on very large accounts a comment is rarely read, so keep those to one per run.
 11. Show one summary: post, asset, replies, comments, sources, score and every sentence that needs the person's confirmation. Ask "Publish?".
 12. After "publish": post, verify it is live, log the run in `ROTATION.md`, log anything that broke in `ERRORS.md`, commit and push.
 

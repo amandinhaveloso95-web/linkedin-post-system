@@ -38,3 +38,6 @@ Uma skill do Claude que roda uma rotina de LinkedIn para uma pessoa: pesquisa, e
 
 ## Related work
 Some ideas here (a story bank, a hook library, an audit before publishing, following up when an author replies) were informed by reading other open skills, especially [sergebulaev/linkedin-skills](https://github.com/sergebulaev/linkedin-skills) and [blader/humanizer](https://github.com/blader/humanizer), both MIT. No text was copied. If you want a deeper humanizer, install blader/humanizer and this skill will use it.
+
+## License
+MIT. See [LICENSE](LICENSE).
