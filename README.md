@@ -5,6 +5,27 @@ A Claude skill that runs a recurring LinkedIn routine for one person: it researc
 ## Install
 Copy this folder to `~/.claude/skills/linkedin-post-system/` and ask Claude to "set up my LinkedIn post system".
 
+## Requirements
+The skill is only instructions. To do the work, Claude needs:
+
+| What | Why |
+|---|---|
+| Claude desktop app or Claude Code | runs the sessions and the scheduled routine |
+| Claude in Chrome extension, with LinkedIn signed in | reads your profile and publishes after you approve |
+| Web search | finds and checks recent news |
+| Git, and a private repository or local folder | keeps your facts, voice, rotation and metrics |
+| A design skill (for example `canvas-design`) | images and PDF carousels |
+| A video skill plus Node.js and ffmpeg (for example HyperFrames) | videos and GIFs |
+
+Optional: a "humanizer" skill (the bundled `templates/HUMANIZER.md` is used either way), and a scheduled task to run the routine on fixed days.
+
+## Set up
+1. Install the requirements above and sign in to LinkedIn in Chrome.
+2. Create a private folder or repository for your data.
+3. Ask Claude to "set up my LinkedIn post system". It copies `templates/` into your folder and interviews you, one role at a time.
+4. Run one round by hand and approve it before scheduling anything.
+5. Schedule the routine (for example Monday, Wednesday and Friday).
+
 ## Privacy
 The skill holds no personal data. Everything about you goes into a working folder that you should keep private.
 
