@@ -1,6 +1,20 @@
 ﻿# linkedin-post-system
 
-A Claude skill that runs a recurring LinkedIn routine for one person: it researches, writes and designs a post, drafts replies and comments, and publishes only after the person approves.
+A Claude skill that helps one person get found by recruiters and hiring managers on LinkedIn. It runs a recurring routine: researches, writes and designs a post, drafts replies and comments, prepares a weekly list of people to connect with, and publishes only after the person approves.
+
+## What makes it different
+- **Nothing goes out without your yes.** Every run stops at "Publish?".
+- **Only confirmed facts.** It interviews you role by role and records what you did not do as carefully as what you did, so no post claims more than you can defend in an interview.
+- **Written for the people who hire.** Tools named in the text and in the hashtags, a proof line with a number, and a check that a recruiter can read your role, scale and tools from the post alone.
+- **It measures the goal.** Profile views, search appearances and recruiter messages come before impressions.
+- **It learns slowly on purpose.** Rules change only when the numbers or the error log give a reason.
+
+## What is inside
+- `SKILL.md`: the routine.
+- `references/recruiters.md`: how recruiters find and read a post.
+- `references/interview.md`: the questions and the activity checklist.
+- `examples/fictional-run.md`: one complete run for an invented person.
+- `templates/`: the state files, blank.
 
 ## Install
 Copy this folder to `~/.claude/skills/linkedin-post-system/` and ask Claude to "set up my LinkedIn post system".

@@ -1,9 +1,14 @@
-﻿# Where to comment
+﻿# Where to comment and who to invite
 
 ## Never
 
-## Creators in their field
+## Mid-size authors (about 2,000 to 20,000 followers) - first choice
+(name, topic, followers, do they answer comments?, date)
 
-## Recruiters and hiring managers
+## Large creators (format reference; one comment per run at most)
+
+## Recruiters and hiring managers in the target roles
+
+## Invitations sent (date, name, company) - do not invite twice
 
 ## Authors commented recently (date, author)
